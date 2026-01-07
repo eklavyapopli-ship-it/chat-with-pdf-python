@@ -1,0 +1,22 @@
+two phases
+
+
+1. INDEXING: User Provide data
+2. Retrieval: User Chat with DATA
+
+
+#### INDEXING
+1. User provides few documents to get indexed.
+2. Split the data into CHUNKS.
+  ---HOW?  :   Split into Paragrahs.
+3. Embedding Model: Every chunk is given to the Embedding Model and create Vector Embeddings.
+4. Vector Database: Vector DB, All chunks are stored into Vector DB.
+
+
+#### RETRIEVAL
+1. Query Provided by user.
+2. Query converted into vector embeddings.
+3. A query is done in Vector DB which is called VECTOR SIMILARITY SEARCH and the similar, relevant chunks are returned by the Vector DB.
+4. SYSTEM PROMPT: It has now only the valid data, the relevant chunks (cosy effective)
+
+

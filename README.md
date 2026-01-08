@@ -123,9 +123,9 @@ Final Answer
 | ----------- | --------------------------------------- |
 | Language    | Python                                  |
 | LLM         | Gemini / OpenAI / Local LLM             |
-| Embeddings  | Gemini / OpenAI / Sentence Transformers |
-| Vector DB   | FAISS / ChromaDB                        |
-| PDF Parsing | PyPDF / PDFPlumber                      |
+| Embeddings  | LangChain Gemini / OpenAI                         |
+| Vector DB   | QrantDB                                 |
+| PDF Parsing | LangChain PyPDF / PDFPlumber                      |
 | Framework   | Custom RAG Pipeline                     |
 
 ---
